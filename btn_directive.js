@@ -8,3 +8,11 @@ buttonDirective.directive('glyph', function() {
     template: '<span class="glphicon glyphicon-{{icon}}" aria-hidden="true"></span>'
   };
 });
+
+
+buttonDirective.directive('bt-button', function() {
+  return {
+    transclude: true,
+    templlate: ''
+  }
+});
